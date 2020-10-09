@@ -15,6 +15,7 @@
 		59BD539B252FE03E00A5B1C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BD5399252FE03E00A5B1C0 /* LaunchScreen.storyboard */; };
 		59BD53A6252FE03F00A5B1C0 /* Pa4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD53A5252FE03F00A5B1C0 /* Pa4Tests.swift */; };
 		59BD53B1252FE03F00A5B1C0 /* Pa4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD53B0252FE03F00A5B1C0 /* Pa4UITests.swift */; };
+		59BD53BF252FEC5500A5B1C0 /* TipCalcualtor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD53BE252FEC5500A5B1C0 /* TipCalcualtor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		59BD53AC252FE03F00A5B1C0 /* Pa4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pa4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59BD53B0252FE03F00A5B1C0 /* Pa4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pa4UITests.swift; sourceTree = "<group>"; };
 		59BD53B2252FE03F00A5B1C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BD53BE252FEC5500A5B1C0 /* TipCalcualtor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcualtor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				59BD5397252FE03E00A5B1C0 /* Assets.xcassets */,
 				59BD5399252FE03E00A5B1C0 /* LaunchScreen.storyboard */,
 				59BD539C252FE03E00A5B1C0 /* Info.plist */,
+				59BD53BE252FEC5500A5B1C0 /* TipCalcualtor.swift */,
 			);
 			path = Pa4;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59BD5393252FE03C00A5B1C0 /* ViewController.swift in Sources */,
+				59BD53BF252FEC5500A5B1C0 /* TipCalcualtor.swift in Sources */,
 				59BD538F252FE03C00A5B1C0 /* AppDelegate.swift in Sources */,
 				59BD5391252FE03C00A5B1C0 /* SceneDelegate.swift in Sources */,
 			);

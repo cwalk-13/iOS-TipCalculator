@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  var tc = TipCalculator()
+    @IBOutlet weak var billAmount: UITextField!
+    @IBOutlet weak var tipPercent: UITextField!
+    @IBOutlet weak var textView: UITextView!
+    
+    @IBAction func Calculate(_ sender: Any) {
+        textView.text = String(tc.CalcTip())
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
